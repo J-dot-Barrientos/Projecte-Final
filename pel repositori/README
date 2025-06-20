@@ -1,0 +1,7 @@
+Carpeta 1_build: construcció del cristall i creació del porus
+Carpeta 2_calibrate: pujada T fins a 295 K (eq1), equilibrat (eq2) i producció amb i sense camp elèctric (null.namd, field.namd)
+PROBLEMA: ERROR EN EXECUTAR null.namd (i segurament field.namd), veure null1.0.log
+INPUTS: membrane_hex.psf i .pdb (a 1_build). A més utilitza coordenades, extendedSystem i velocitats de l'equilibrat (eq2). Veure null.namd
+PARÀMETRES: par_silicon_ions_NEW0.1.inp
+Tot està a 2_calibrate. En cas contrari, la ubicació està indicada.
+Gràcies Jordi
